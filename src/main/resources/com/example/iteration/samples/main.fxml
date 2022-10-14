@@ -1,16 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.iteration.controllers.MainController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="600.0" stylesheets="@../../../../CSS/Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iteration.controllers.MainController">
+   <children>
+      <Label layoutX="25.0" layoutY="30.0" text="X1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX1" layoutX="75.0" layoutY="28.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="150.0" layoutY="30.0" text="X2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX2" layoutX="200.0" layoutY="28.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="275.0" layoutY="32.0" text="X3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX3" layoutX="325.0" layoutY="30.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="400.0" layoutY="33.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="result1" layoutX="475.0" layoutY="30.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="25.0" layoutY="100.0" text="X1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX11" layoutX="75.0" layoutY="98.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="150.0" layoutY="100.0" text="X2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX22" layoutX="200.0" layoutY="98.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="275.0" layoutY="102.0" text="X3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX33" layoutX="325.0" layoutY="100.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="400.0" layoutY="103.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="result2" layoutX="475.0" layoutY="100.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="25.0" layoutY="170.0" text="X1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX111" layoutX="75.0" layoutY="168.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="150.0" layoutY="170.0" text="X2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX222" layoutX="200.0" layoutY="168.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="275.0" layoutY="172.0" text="X3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX333" layoutX="325.0" layoutY="170.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="400.0" layoutY="173.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="result3" layoutX="475.0" layoutY="170.0" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="authoButton" layoutX="394.0" layoutY="360.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: none;" text="Авторизация">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="decideButton" layoutX="218.0" layoutY="403.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="165.0" style="-fx-background-color: none;" text="Решить">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="25.0" layoutY="240.0" text="Точность">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accuracy" layoutX="200.0" layoutY="238.0" prefHeight="50.0" prefWidth="175.0" />
+      <Button fx:id="helpButton" layoutX="25.0" layoutY="403.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="165.0" style="-fx-background-color: none;" text="Помощь">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="registrButton" layoutX="394.0" layoutY="409.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: none;" text="Регистрация">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="text" layoutX="25.0" layoutY="325.0" prefHeight="45.0" prefWidth="378.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

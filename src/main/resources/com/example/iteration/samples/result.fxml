@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="316.0" stylesheets="@../../../../CSS/Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iteration.controllers.Result">
+   <children>
+      <Label layoutX="35.0" layoutY="30.0" text="X1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="29.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="103.0" text="X2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="100.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="171.0" text="X3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="171.0" text="=">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="result1" layoutX="120.0" layoutY="27.0" prefHeight="50.0" prefWidth="137.0" text="3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="result2" layoutX="120.0" layoutY="100.0" prefHeight="50.0" prefWidth="137.0" text="3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="result3" layoutX="120.0" layoutY="168.0" prefHeight="50.0" prefWidth="137.0" text="4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
