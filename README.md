@@ -34,5 +34,5 @@
 ----
 # Благодарности
 - Всем спасибо!
-<h1 align="center">Все притензии по поводу программного продукта высылайте на почту ===>> kakosabro@gmail.com> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" height="32"/></h1>
+<h1 align="center">Все притензии по поводу программного продукта высылайте на почту ===>> kakosabro@gmail.com 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" height="77"/></h1>
