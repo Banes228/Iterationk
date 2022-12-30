@@ -36,4 +36,5 @@
 - Всем спасибо!
 <h1 align="center">Все притензии по поводу программного продукта высылайте на почту ===>> kakosabro@gmail.com 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/logo-deno.svg" height="77"/></h1>
-https://github.com/lifeparticle/Gist-Count
+<a href="https://awesome-github-readme-profile.netlify.app"><img src="https://raw.githubusercontent.com/elangosundar/awesome-README-templates/master/awesome-github-profile.png" alt="Awesome README Templates" /></a>
+
