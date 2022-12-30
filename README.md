@@ -35,4 +35,4 @@
 # Благодарности
 - Всем спасибо!
 <h1 align="center">Все притензии по поводу программного продукта высылайте на почту ===>> kakosabro@gmail.com 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" height="77"/></h1>
+<img src="https://github.com/blackcater/blackcater/raw/main/images/logo-deno.svg" height="77"/></h1>
